@@ -8,20 +8,24 @@ import { Component, OnInit } from '@angular/core';
 export class ShopComponent implements OnInit {
 
   constructor() { }
-  prods = [
-    { src: 'assets/images/photo-1603077747884-b458237de736.webp', price: '500' },
-    { src: 'assets/images/photo-1603077747884-b458237de736.webp', price: '500' },
-    { src: 'assets/images/photo-1603077747884-b458237de736.webp', price: '500' },
-    { src: 'assets/images/photo-1603077747884-b458237de736.webp', price: '500' },
-    { src: 'assets/images/photo-1603077747884-b458237de736.webp', price: '500' },
-    { src: 'assets/images/photo-1603077747884-b458237de736.webp', price: '500' },
-    { src: 'assets/images/photo-1603077747884-b458237de736.webp', price: '500' },
-    { src: 'assets/images/photo-1603077747884-b458237de736.webp', price: '500' },
-    { src: 'assets/images/photo-1603077747884-b458237de736.webp', price: '500' },
-    { src: 'assets/images/photo-1603077747884-b458237de736.webp', price: '500' },
-    { src: 'assets/images/photo-1603077747884-b458237de736.webp', price: '500' },
-    { src: 'assets/images/photo-1603077747884-b458237de736.webp', price: '500' },
-  ]
+    men = [
+      { src: 'assets/images/menshirt.png', price: '500' },
+      { src: 'assets/images/mensuit.png', price: '500' },
+      { src: 'assets/images/mencloth.png', price: '500' },
+      { src: 'assets/images/mensirt.png', price: '500' },
+    ]
+   women = [
+      { src: 'assets/images/womencroptop.png', price: '500' },
+      { src: 'assets/images/womengown.png', price: '500' },
+      { src: 'assets/images/womenroundneck.png', price: '500' },
+      { src: 'assets/images/womensweater.png', price: '500' },
+    ]
+   children = [
+    { src: 'assets/images/boyshirt.png', price: '500' },
+    { src: 'assets/images/chilren.webp', price: '500' },
+    { src: 'assets/images/child_uniquedress.png', price: '500' },
+    { src: 'assets/images/download.webp', price: '500' },
+   ]
 
   ngOnInit(): void {
   }
