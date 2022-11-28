@@ -1,0 +1,17 @@
+{
+  "posts": [
+    { "id": 1, "title": "json-server", "author": "typicode" }
+  ],
+  "comments": [
+    { "id": 1, "body": "some comment", "postId": 1 }
+  ],
+  "data": [
+    { "id": 1, "src": "C:\\sam_dev\\threeJs\\threejs-webpack-starter\\angular_threeJs\\myThreeJs\\src\\assets\\images\\photo-1603077747884-b458237de736.webp", "postId": 1 },
+    { "id": 2, "src": "C:\\sam_dev\\threeJs\\threejs-webpack-starter\\angular_threeJs\\myThreeJs\\src\\assets\\images\\photo-1603077747884-b458237de736.webp", "postId": 1 },
+    { "id": 3, "src": "C:\\sam_dev\\threeJs\\threejs-webpack-starter\\angular_threeJs\\myThreeJs\\src\\assets\\images\\photo-1603077747884-b458237de736.webp", "postId": 1 },
+    { "id": 4, "src": "C:\\sam_dev\\threeJs\\threejs-webpack-starter\\angular_threeJs\\myThreeJs\\src\\assets\\images\\photo-1603077747884-b458237de736.webp", "postId": 1 },
+    { "id": 5, "src": "C:\\sam_dev\\threeJs\\threejs-webpack-starter\\angular_threeJs\\myThreeJs\\src\\assets\\images\\photo-1603077747884-b458237de736.webp", "postId": 1 },
+    { "id": 5, "src": "C:\\sam_dev\\threeJs\\threejs-webpack-starter\\angular_threeJs\\myThreeJs\\src\\assets\\images\\photo-1603077747884-b458237de736.webp", "postId": 1 }
+  ],
+  "profile": { "name": "typicode" }
+}

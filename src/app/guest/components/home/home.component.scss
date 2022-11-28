@@ -1,0 +1,40 @@
+.bannerPar {
+  margin-top: 90px;
+  .banner {
+    height: 500px;
+    width: 100%;
+    background-image: url("/assets/textures_three/bump\ map.jpg");
+    padding: 30px 100px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    .txt {
+      text-align: center;
+      h1 {
+        font-size: 70px;
+      }
+      p {
+        font-size: 20px;
+        margin-bottom: 20px;
+      }
+    }
+    .seeProd {
+      .seeProdBtn {
+        height: 60px;
+        width: 150px;
+        border-radius: 10px;
+        cursor: pointer;
+        margin-top: 50px;
+        padding: 10px;
+        background-image: linear-gradient(#7fffd4, #ffffff);
+        border: 2px solid #7fffd4;
+        border-radius: 10px;
+        transition: all 0.3s;
+        &:hover{
+          transform: scale(1.1);
+          transition: 0.3s ;
+        }
+      }
+    }
+  }
+}

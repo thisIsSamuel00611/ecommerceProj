@@ -1,0 +1,37 @@
+.formContPar {
+  .formPar {
+    border-radius: 10px;
+    margin-top: 200px;
+    margin-bottom: 100px;
+    width: 500px;
+    background-color: #7fffd4;
+    color: #050522;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    input {
+      width: 300px;
+      margin-bottom: 30px;
+    }
+    .signUpBtn {
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      justify-self: center;
+      margin: auto;
+      height: 60px;
+      width: 150px;
+      cursor: pointer;
+      margin-top: 50px;
+      padding: 10px;
+      background-image: linear-gradient(#7fffd4, #ffffff);
+      border: 2px solid #050522;
+      border-radius: 10px;
+      transition: all 0.3s;
+      &:hover {
+        transform: scale(1.1);
+        transition: 0.3s;
+      }
+    }
+  }
+}

@@ -1,0 +1,66 @@
+<header>
+  <app-header></app-header>
+</header>
+<section class="formContPar">
+  <div class="container d-flex justify-content-center">
+    <div class="col-6 formPar p-5">
+      <div class="txt text-center mb-5">
+        <h2>LOGO</h2>
+      </div>
+      <form [formGroup]="signUpForm" (ngSubmit)="registerSubmitted()">
+        <input
+          type="text"
+          id="First Name"
+          class="form-control"
+          placeholder="First Name"
+          formControlName="firstname"
+        />
+        <input
+          type="text"
+          id="Last Name"
+          class="form-control"
+          placeholder="Last Name"
+          formControlName="lastname"
+        />
+        <input
+          type="text"
+          id="Email"
+          class="form-control"
+          placeholder="Email"
+          formControlName="email"
+        />
+        <input
+          type="password"
+          id="Password"
+          class="form-control"
+          placeholder="Password"
+          formControlName="password"
+        />
+        <input
+          type="password"
+          id="retPassword"
+          class="form-control"
+          placeholder="Retype Password"
+          formControlName="rtpassword"
+        />
+        <input
+          type="text"
+          id="Phone Number"
+          class="form-control"
+          placeholder="Phone Number"
+          formControlName="phonenumber"
+        />
+        <!-- <div>
+          <label for="male">Male</label>
+          <input type="radio" id="male" class="" formControlName="gender" />
+          <label for="male">Male</label>
+          <input type="radio" id="male" class="" formControlName="gender" />
+          <button type="submit" class="signUpBtn">Sign Up</button>
+        </div> -->
+      </form>
+    </div>
+  </div>
+</section>
+<footer>
+  <app-footer></app-footer>
+</footer>
