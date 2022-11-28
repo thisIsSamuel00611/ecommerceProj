@@ -1,7 +1,7 @@
 import { Component, ElementRef, OnInit, ViewChild } from '@angular/core';
 import * as THREE from 'three'
 // import { OrbitControls } from 'three/examples/jsm/controls/OrbitControls.js'
-import * as dat from 'dat.gui'
+// import * as dat from 'dat.gui'
 
 @Component({
   selector: 'app-my-threejs',
@@ -20,7 +20,7 @@ export class MyThreejsComponent implements OnInit {
     const normalTexture = textureLoader.load('/assets/textures_three/NormalMap.png')
 
     // Debug
-    const gui = new dat.GUI()
+    // const gui = new dat.GUI()
 
     // Canvas
     const canvas : any = document.querySelector('canvas.webgl')

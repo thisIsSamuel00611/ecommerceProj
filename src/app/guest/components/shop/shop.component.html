@@ -2,9 +2,9 @@
   <app-header></app-header>
 </header>
 <section class="prodSect py-5 px-3">
-  <div class="fashionCont">
+  <div class="menCont">
     <div class="py-3 fashion">
-      <h2>Fashion</h2>
+      <h2>Men</h2>
     </div>
     <div class="row">
       <div class="col-md-4 col-sm-4 col-xl-2 col-sm-4 col-sm-4 p-3" *ngFor="let item of prods">
@@ -25,7 +25,7 @@
   </div>
   <div class="electronicsCont">
     <div class="py-3 fashion">
-      <h2>Electronics</h2>
+      <h2>Women</h2>
     </div>
     <div class="row">
       <div class="col-md-4 col-sm-4 col-xl-2 col-sm-4 col-xl-2 col-sm-4 col-sm-4 p-3" *ngFor="let item of prods">
@@ -46,7 +46,7 @@
   </div>
   <div class="foodCont">
     <div class="py-3 fashion">
-      <h2>Food & Drinks</h2>
+      <h2>Children</h2>
     </div>
     <div class="row">
       <div class="col-md-4 col-sm-4 col-xl-2 col-sm-4 col-xl-2 col-sm-4 col-sm-4 p-3" *ngFor="let item of prods">
@@ -65,70 +65,7 @@
       </div>
     </div>
   </div>
-  <div class="gamingCont">
-    <div class="py-3 fashion">
-      <h2>Gaming</h2>
-    </div>
-    <div class="row">
-      <div class="col-md-4 col-sm-4 col-xl-2 col-sm-4 col-xl-2 col-sm-4 col-sm-4 p-3" *ngFor="let item of prods">
-        <div class="card prod">
-          <div class="card-header">
-            <img src="{{ item.src }}" class="img-fluid" alt="item" />
-          </div>
-          <div class="card-body text-dark">
-            <span>Denim Jeans</span><br />
-            <span>Price : ${{ item.price }}</span>
-          </div>
-          <div class="card-footer">
-            <button type="button" class="addToCart">Add to Cart</button>
-          </div>
-        </div>
-      </div>
-    </div>
-  </div>
-  <div class="appliancesCont">
-    <div class="py-3 fashion">
-      <h2>Appliances</h2>
-    </div>
-    <div class="row">
-      <div class="col-md-4 col-sm-4 col-xl-2 col-sm-4 col-xl-2 col-sm-4 col-sm-4 p-3" *ngFor="let item of prods">
-        <div class="card prod">
-          <div class="card-header">
-            <img src="{{ item.src }}" class="img-fluid" alt="item" />
-          </div>
-          <div class="card-body text-dark">
-            <span>Denim Jeans</span><br />
-            <span>Price : ${{ item.price }}</span>
-          </div>
-          <div class="card-footer">
-            <button type="button" class="addToCart">Add to Cart</button>
-          </div>
-        </div>
-      </div>
-    </div>
-  </div>
-  <div class="furnitureCont">
-    <div class="py-3 fashion">
-      <h2>Furnitures</h2>
-    </div>
-    <div class="row">
-      <div class="col-md-4 col-sm-4 col-xl-2 col-sm-4 col-sm-4 p-3" *ngFor="let item of prods">
-        <div class="card prod">
-          <div class="card-header">
-            <img src="{{ item.src }}" class="img-fluid" alt="item" />
-          </div>
-          <div class="card-body text-dark">
-            <span>Denim Jeans</span><br />
-            <span>Price : ${{ item.price }}</span>
-          </div>
-          <div class="card-footer">
-            <button type="button" class="addToCart">Add to Cart</button>
-          </div>
-        </div>
-      </div>
-    </div>
-  </div>
-</section>
+
 <footer>
   <app-footer></app-footer>
 </footer>

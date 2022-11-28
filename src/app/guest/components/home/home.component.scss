@@ -1,9 +1,10 @@
 .bannerPar {
   margin-top: 90px;
+  background-color: #7fffd4;
   .banner {
-    height: 500px;
+    height: 600px;
     width: 100%;
-    background-image: url("/assets/textures_three/bump\ map.jpg");
+    background-image: url("/assets/images/bannerImg.jpg");
     padding: 30px 100px;
     display: flex;
     flex-direction: column;
