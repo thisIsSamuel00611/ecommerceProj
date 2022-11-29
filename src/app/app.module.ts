@@ -17,7 +17,6 @@ import { BlogComponent } from './guest/components/blog/blog.component';
 import { FilterPipe } from './guest/shared/filter.pipe';
 import { FooterComponent } from './shared/component/footer/footer.component';
 import { ReactiveFormsModule } from '@angular/forms';
-import { CarouselComponent } from './shared/carousel/carousel.component';
 
 @NgModule({
   declarations: [
@@ -35,7 +34,6 @@ import { CarouselComponent } from './shared/carousel/carousel.component';
     BlogComponent,
     FilterPipe,
     FooterComponent,
-    CarouselComponent,
   ],
   imports: [
     BrowserModule,
