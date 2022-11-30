@@ -11,6 +11,7 @@ import { LoginComponent } from './user/components/login/login.component';
 import { SignupComponent } from './user/components/signup/signup.component';
 const routes: Routes = [
   { path: 'threejs', component: MyThreejsComponent },
+  { path: '', component: HomeComponent },
   { path: 'home', component: HomeComponent },
   { path: 'about', component: AboutComponent },
   { path: 'blog', component: BlogComponent },
