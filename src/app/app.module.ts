@@ -2,6 +2,7 @@ import { NgModule } from '@angular/core';
 import { BrowserModule } from '@angular/platform-browser';
 import { BrowserAnimationsModule } from '@angular/platform-browser/animations';
 import { RouterModule, Routes } from '@angular/router';
+import { HttpClientModule } from '@angular/common/http';
 import { CarouselModule } from 'ngx-owl-carousel-o';
 
 import { AppRoutingModule } from './app-routing.module';
@@ -45,7 +46,8 @@ import { CarouselComponent } from './guest/shared/component/carousel/carousel.co
     BrowserAnimationsModule,
     AppRoutingModule,
     ReactiveFormsModule,
-    CarouselModule
+    CarouselModule,
+    HttpClientModule
   ],
   providers: [],
   bootstrap: [AppComponent]
