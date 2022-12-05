@@ -7,20 +7,22 @@
       <h2>Men</h2>
     </div>
     <div class="row">
-      <div class="" *ngFor="let item of men">
-        <div class="card prod">
-          <div class="card-header">
-            <img src="{{ item.src }}" class="img-fluid" alt="item" />
+      <owl-carousel-o [options]="customOptions">
+        <ng-template carouselSlide *ngFor="let item of men">
+          <div class="card prod">
+            <div class="card-header">
+              <img src="{{ item.src }}" class="img-fluid" alt="item" />
+            </div>
+            <div class="card-body text-dark">
+              <span>Denim Jeans</span><br />
+              <span>Price : ${{ item.price }}</span>
+            </div>
+            <div class="card-footer">
+              <button type="button" class="addToCart">Add to Cart</button>
+            </div>
           </div>
-          <div class="card-body text-dark">
-            <span>Denim Jeans</span><br />
-            <span>Price : ${{ item.price }}</span>
-          </div>
-          <div class="card-footer">
-            <button type="button" class="addToCart">Add to Cart</button>
-          </div>
-        </div>
-      </div>
+        </ng-template>
+      </owl-carousel-o>
     </div>
   </div>
   <div class="electronicsCont">
@@ -28,20 +30,22 @@
       <h2>Women</h2>
     </div>
     <div class="row">
-      <div class="col-md-4 col-sm-4 col-xl-2 col-sm-4 col-xl-2 col-sm-4 col-sm-4 p-3" *ngFor="let item of women">
-        <div class="card prod">
-          <div class="card-header">
-            <img src="{{ item.src }}" class="img-fluid" alt="item" />
+      <owl-carousel-o [options]="customOptions">
+        <ng-template carouselSlide *ngFor="let item of women">
+          <div class="card prod">
+            <div class="card-header">
+              <img src="{{ item.src }}" class="img-fluid" alt="item" />
+            </div>
+            <div class="card-body text-dark">
+              <span>Denim Jeans</span><br />
+              <span>Price : ${{ item.price }}</span>
+            </div>
+            <div class="card-footer">
+              <button type="button" class="addToCart">Add to Cart</button>
+            </div>
           </div>
-          <div class="card-body text-dark">
-            <span>Denim Jeans</span><br />
-            <span>Price : ${{ item.price }}</span>
-          </div>
-          <div class="card-footer">
-            <button type="button" class="addToCart">Add to Cart</button>
-          </div>
-        </div>
-      </div>
+        </ng-template>
+      </owl-carousel-o>
     </div>
   </div>
   <div class="foodCont">
@@ -49,23 +53,25 @@
       <h2>Children</h2>
     </div>
     <div class="row">
-      <div class="col-md-4 col-sm-4 col-xl-2 col-sm-4 col-xl-2 col-sm-4 col-sm-4 p-3" *ngFor="let item of children">
-        <div class="card prod">
-          <div class="card-header">
-            <img src="{{ item.src }}" class="img-fluid" alt="item" />
+      <owl-carousel-o [options]="customOptions">
+        <ng-template carouselSlide *ngFor="let item of children">
+          <div class="card prod">
+            <div class="card-header">
+              <img src="{{ item.src }}" class="img-fluid" alt="item" />
+            </div>
+            <div class="card-body text-dark">
+              <span>Denim Jeans</span><br />
+              <span>Price : ${{ item.price }}</span>
+            </div>
+            <div class="card-footer">
+              <button type="button" class="addToCart">Add to Cart</button>
+            </div>
           </div>
-          <div class="card-body text-dark">
-            <span>Denim Jeans</span><br />
-            <span>Price : ${{ item.price }}</span>
-          </div>
-          <div class="card-footer">
-            <button type="button" class="addToCart">Add to Cart</button>
-          </div>
-        </div>
-      </div>
+        </ng-template>
+      </owl-carousel-o>
     </div>
   </div>
 
-<footer>
-  <app-footer></app-footer>
-</footer>
+  <footer>
+    <app-footer></app-footer>
+  </footer>

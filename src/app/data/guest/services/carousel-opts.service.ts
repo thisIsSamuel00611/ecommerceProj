@@ -11,13 +11,18 @@ export class CarouselOptsService {
 
   customOptions: OwlOptions = {
     loop: false,
+    autoplay: true,
+    autoplaySpeed: 600,
+    autoplayMouseleaveTimeout: 3,
+    animateIn: true,
+    animateOut: true,
     mouseDrag: true,
     touchDrag: true,
     pullDrag: true,
-    dots: false,
+    dots: true,
     navSpeed: 700,
-    navText: ['', ''],
-    responsive : {
+    navText: [`<button class="btn btn-outline-success">Prev</button>`, 'Next'],
+    responsive: {
       0: {
         items: 1
       },
@@ -31,7 +36,7 @@ export class CarouselOptsService {
         items: 5
       },
     },
-    nav: false
+    nav: true
   }
 
 }

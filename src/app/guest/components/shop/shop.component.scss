@@ -1,8 +1,8 @@
 .prodSect {
   margin-top: 50px;
   .card{
-    max-height: 500px !important;
-    height: 400px;
+    height: fit-content;
+    margin: 30px 15px;
   }
   .fashion {
     border-bottom: 2px solid #7fffd4;
