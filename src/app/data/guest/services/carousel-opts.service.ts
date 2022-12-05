@@ -21,7 +21,7 @@ export class CarouselOptsService {
     pullDrag: true,
     dots: true,
     navSpeed: 700,
-    navText: [`<button class="btn btn-outline-success">Prev</button>`, 'Next'],
+    navText: [`<i class="fa fa-angle-left"><i/>`, `<i class="fa fa-angle-right"><i/>`],
     responsive: {
       0: {
         items: 1
