@@ -6,28 +6,28 @@
     { "id": 1, "body": "some comment", "postId": 1 }
   ],
   "men": [
-    { "id": 1, "src": "C:\\sam_dev\\threeJs\\threejs-webpack-starter\\angular_threeJs\\myThreeJs\\src\\assets\\images\\menshirt.png", "postId": 1 },
-    { "id": 2, "src": "C:\\sam_dev\\threeJs\\threejs-webpack-starter\\angular_threeJs\\myThreeJs\\src\\assets\\images\\menshirt.png", "postId": 2 },
-    { "id": 3, "src": "C:\\sam_dev\\threeJs\\threejs-webpack-starter\\angular_threeJs\\myThreeJs\\src\\assets\\images\\menshirt.png", "postId": 3 },
-    { "id": 4, "src": "C:\\sam_dev\\threeJs\\threejs-webpack-starter\\angular_threeJs\\myThreeJs\\src\\assets\\images\\menshirt.png", "postId": 4 },
-    { "id": 5, "src": "C:\\sam_dev\\threeJs\\threejs-webpack-starter\\angular_threeJs\\myThreeJs\\src\\assets\\images\\menshirt.png", "postId": 5 },
-    { "id": 6, "src": "C:\\sam_dev\\threeJs\\threejs-webpack-starter\\angular_threeJs\\myThreeJs\\src\\assets\\images\\menshirt.png", "postId": 6 }
+    { "id": 1, "src": "assets/images/menshirt.png", "postId": 1 },
+    { "id": 2, "src": "assets/images/menshirt.png", "postId": 2 },
+    { "id": 3, "src": "assets/images/menshirt.png", "postId": 3 },
+    { "id": 4, "src": "assets/images/menshirt.png", "postId": 4 },
+    { "id": 5, "src": "assets/images/menshirt.png", "postId": 5 },
+    { "id": 6, "src": "assets/images/menshirt.png", "postId": 6 }
   ],
   "women": [
-    { "id": 1, "src": "C:\\sam_dev\\threeJs\\threejs-webpack-starter\\angular_threeJs\\myThreeJs\\src\\assets\\images\\womencroptop.png", "postId": 1 },
-    { "id": 2, "src": "C:\\sam_dev\\threeJs\\threejs-webpack-starter\\angular_threeJs\\myThreeJs\\src\\assets\\images\\womencroptop.png", "postId": 2 },
-    { "id": 3, "src": "C:\\sam_dev\\threeJs\\threejs-webpack-starter\\angular_threeJs\\myThreeJs\\src\\assets\\images\\womencroptop.png", "postId": 3 },
-    { "id": 4, "src": "C:\\sam_dev\\threeJs\\threejs-webpack-starter\\angular_threeJs\\myThreeJs\\src\\assets\\images\\womencroptop.png", "postId": 4 },
-    { "id": 5, "src": "C:\\sam_dev\\threeJs\\threejs-webpack-starter\\angular_threeJs\\myThreeJs\\src\\assets\\images\\womencroptop.png", "postId": 5 },
-    { "id": 6, "src": "C:\\sam_dev\\threeJs\\threejs-webpack-starter\\angular_threeJs\\myThreeJs\\src\\assets\\images\\womencroptop.png", "postId": 6 }
+    { "id": 1, "src": "assets/images/womencroptop.png", "postId": 1 },
+    { "id": 2, "src": "assets/images/womencroptop.png", "postId": 2 },
+    { "id": 3, "src": "assets/images/womencroptop.png", "postId": 3 },
+    { "id": 4, "src": "assets/images/womencroptop.png", "postId": 4 },
+    { "id": 5, "src": "assets/images/womencroptop.png", "postId": 5 },
+    { "id": 6, "src": "assets/images/womencroptop.png", "postId": 6 }
   ],
   "children": [
-    { "id": 1, "src": "C:\\sam_dev\\threeJs\\threejs-webpack-starter\\angular_threeJs\\myThreeJs\\src\\assets\\images\\boyshirt.png", "postId": 1 },
-    { "id": 2, "src": "C:\\sam_dev\\threeJs\\threejs-webpack-starter\\angular_threeJs\\myThreeJs\\src\\assets\\images\\boyshirt.png", "postId": 2 },
-    { "id": 3, "src": "C:\\sam_dev\\threeJs\\threejs-webpack-starter\\angular_threeJs\\myThreeJs\\src\\assets\\images\\boyshirt.png", "postId": 3 },
-    { "id": 4, "src": "C:\\sam_dev\\threeJs\\threejs-webpack-starter\\angular_threeJs\\myThreeJs\\src\\assets\\images\\boyshirt.png", "postId": 4 },
-    { "id": 5, "src": "C:\\sam_dev\\threeJs\\threejs-webpack-starter\\angular_threeJs\\myThreeJs\\src\\assets\\images\\boyshirt.png", "postId": 5 },
-    { "id": 6, "src": "C:\\sam_dev\\threeJs\\threejs-webpack-starter\\angular_threeJs\\myThreeJs\\src\\assets\\images\\boyshirt.png", "postId": 6 }
+    { "id": 1, "src": "assets/images/boyshirt.png", "postId": 1 },
+    { "id": 2, "src": "assets/images/boyshirt.png", "postId": 2 },
+    { "id": 3, "src": "assets/images/boyshirt.png", "postId": 3 },
+    { "id": 4, "src": "assets/images/boyshirt.png", "postId": 4 },
+    { "id": 5, "src": "assets/images/boyshirt.png", "postId": 5 },
+    { "id": 6, "src": "assets/images/boyshirt.png", "postId": 6 }
   ],
   "profile": { "name": "typicode" }
 }
