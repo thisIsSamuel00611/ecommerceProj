@@ -1,33 +1,180 @@
 {
   "posts": [
-    { "id": 1, "title": "json-server", "author": "typicode" }
+    {
+      "id": 1,
+      "title": "json-server",
+      "author": "typicode"
+    }
   ],
   "comments": [
-    { "id": 1, "body": "some comment", "postId": 1 }
+    {
+      "id": 1,
+      "body": "some comment",
+      "postId": 1
+    }
   ],
   "men": [
-    { "id": 1, "src": "assets/images/menshirt.png", "postId": 1 },
-    { "id": 2, "src": "assets/images/menshirt.png", "postId": 2 },
-    { "id": 3, "src": "assets/images/menshirt.png", "postId": 3 },
-    { "id": 4, "src": "assets/images/menshirt.png", "postId": 4 },
-    { "id": 5, "src": "assets/images/menshirt.png", "postId": 5 },
-    { "id": 6, "src": "assets/images/menshirt.png", "postId": 6 }
+    {
+      "id": 1,
+      "src": "assets/images/menshirt.png",
+      "postId": 1
+    },
+    {
+      "id": 2,
+      "src": "assets/images/menshirt.png",
+      "postId": 2
+    },
+    {
+      "id": 3,
+      "src": "assets/images/menshirt.png",
+      "postId": 3
+    },
+    {
+      "id": 4,
+      "src": "assets/images/menshirt.png",
+      "postId": 4
+    },
+    {
+      "id": 5,
+      "src": "assets/images/menshirt.png",
+      "postId": 5
+    },
+    {
+      "id": 6,
+      "src": "assets/images/menshirt.png",
+      "postId": 6
+    }
   ],
   "women": [
-    { "id": 1, "src": "assets/images/womencroptop.png", "postId": 1 },
-    { "id": 2, "src": "assets/images/womencroptop.png", "postId": 2 },
-    { "id": 3, "src": "assets/images/womencroptop.png", "postId": 3 },
-    { "id": 4, "src": "assets/images/womencroptop.png", "postId": 4 },
-    { "id": 5, "src": "assets/images/womencroptop.png", "postId": 5 },
-    { "id": 6, "src": "assets/images/womencroptop.png", "postId": 6 }
+    {
+      "id": 1,
+      "src": "assets/images/womencroptop.png",
+      "postId": 1
+    },
+    {
+      "id": 2,
+      "src": "assets/images/womencroptop.png",
+      "postId": 2
+    },
+    {
+      "id": 3,
+      "src": "assets/images/womencroptop.png",
+      "postId": 3
+    },
+    {
+      "id": 4,
+      "src": "assets/images/womencroptop.png",
+      "postId": 4
+    },
+    {
+      "id": 5,
+      "src": "assets/images/womencroptop.png",
+      "postId": 5
+    },
+    {
+      "id": 6,
+      "src": "assets/images/womencroptop.png",
+      "postId": 6
+    }
   ],
   "children": [
-    { "id": 1, "src": "assets/images/boyshirt.png", "postId": 1 },
-    { "id": 2, "src": "assets/images/boyshirt.png", "postId": 2 },
-    { "id": 3, "src": "assets/images/boyshirt.png", "postId": 3 },
-    { "id": 4, "src": "assets/images/boyshirt.png", "postId": 4 },
-    { "id": 5, "src": "assets/images/boyshirt.png", "postId": 5 },
-    { "id": 6, "src": "assets/images/boyshirt.png", "postId": 6 }
+    {
+      "id": 1,
+      "src": "assets/images/boyshirt.png",
+      "postId": 1
+    },
+    {
+      "id": 2,
+      "src": "assets/images/boyshirt.png",
+      "postId": 2
+    },
+    {
+      "id": 3,
+      "src": "assets/images/boyshirt.png",
+      "postId": 3
+    },
+    {
+      "id": 4,
+      "src": "assets/images/boyshirt.png",
+      "postId": 4
+    },
+    {
+      "id": 5,
+      "src": "assets/images/boyshirt.png",
+      "postId": 5
+    },
+    {
+      "id": 6,
+      "src": "assets/images/boyshirt.png",
+      "postId": 6
+    },
+    {
+      "firstname": "Samuel",
+      "lastname": "Emeka",
+      "email": "example1234@gmail.com",
+      "password": "12345",
+      "rtpassword": "2345",
+      "phonenumber": "123456",
+      "id": 7
+    }
   ],
-  "profile": { "name": "typicode" }
+  "signUp": [
+    {
+      "firstname": "Samuel",
+      "lastname": "Emeka",
+      "email": "example1234@gmail.com",
+      "password": "12345",
+      "rtpassword": "2345",
+      "phonenumber": "12345678",
+      "id": 1
+    },
+    {
+      "firstname": "Samuel",
+      "lastname": "Emeka",
+      "email": "example1234@gmail.com",
+      "password": "12345",
+      "rtpassword": "12345",
+      "phonenumber": "123456",
+      "id": 2
+    },
+    {
+      "firstname": "Samuel",
+      "lastname": "Emeka",
+      "email": "example1234@gmail.com",
+      "password": "12345",
+      "rtpassword": "12345",
+      "phonenumber": "12345678",
+      "id": 3
+    },
+    {
+      "firstname": "Samuel",
+      "lastname": "Emeka",
+      "email": "example1234@gmail.com",
+      "password": "12345",
+      "rtpassword": "12345",
+      "phonenumber": "1234567890",
+      "id": 4
+    },
+    {
+      "firstname": "Samuel",
+      "lastname": "Emeka",
+      "email": "example1234@gmail.com",
+      "password": "12345",
+      "rtpassword": "12345",
+      "phonenumber": "1234567",
+      "id": 5
+    },
+    {
+      "firstname": "Samuel",
+      "lastname": "Emeka",
+      "email": "example1234@gmail.com",
+      "password": "12345",
+      "rtpassword": "12345",
+      "phonenumber": "1234567",
+      "id": 6
+    }
+  ],
+  "profile": {
+    "name": "typicode"
+  }
 }

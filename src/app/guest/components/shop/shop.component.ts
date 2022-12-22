@@ -51,7 +51,6 @@ ngOnInit(): void {
   this.dataB.men.subscribe(res => {
     this.men = res;
   })
-  console.log(this.men)
 }
 
 }

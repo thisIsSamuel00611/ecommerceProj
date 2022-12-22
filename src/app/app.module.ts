@@ -20,7 +20,7 @@ import { HeaderComponent } from './guest/shared/component/header/header.componen
 import { BlogComponent } from './guest/components/blog/blog.component';
 import { FilterPipe } from './guest/shared/filter.pipe';
 import { FooterComponent } from './shared/component/footer/footer.component';
-import { ReactiveFormsModule } from '@angular/forms';
+import { FormsModule, ReactiveFormsModule } from '@angular/forms';
 import { CarouselComponent } from './guest/shared/component/carousel/carousel.component';
 
 @NgModule({
@@ -46,6 +46,7 @@ import { CarouselComponent } from './guest/shared/component/carousel/carousel.co
     BrowserAnimationsModule,
     AppRoutingModule,
     ReactiveFormsModule,
+    FormsModule,
     CarouselModule,
     HttpClientModule
   ],

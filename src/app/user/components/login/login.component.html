@@ -1,1 +1,33 @@
-<p>login works!</p>
+<header>
+  <app-header></app-header>
+</header>
+<section class="formContPar">
+  <div class="container d-flex justify-content-center">
+    <div class="col-6 formPar p-5">
+      <div class="txt text-center mb-5">
+        <h2>LOGO</h2>
+      </div>
+      <form [formGroup]="loginForm" (ngSubmit)="login()">
+        <input
+          type="text"
+          id="Email"
+          class="form-control"
+          placeholder="Email"
+          formControlName="email"
+        />
+        <input
+          type="password"
+          id="Password"
+          class="form-control"
+          placeholder="Password"
+          formControlName="password"
+        />
+
+        <button type="submit" class="signUpBtn">Login</button>
+      </form>
+    </div>
+  </div>
+</section>
+<footer>
+  <app-footer></app-footer>
+</footer>

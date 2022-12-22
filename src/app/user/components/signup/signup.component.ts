@@ -1,6 +1,8 @@
 import { Component, OnInit } from '@angular/core';
-import { FormControl, FormGroup } from '@angular/forms';
-
+import { HttpClient } from '@angular/common/http';
+import { FormControl, FormGroup, Validators } from '@angular/forms';
+import { Router } from '@angular/router';
+import { LoginComponent } from '../login/login.component';
 @Component({
   selector: 'app-signup',
   templateUrl: './signup.component.html',
@@ -8,22 +10,33 @@ import { FormControl, FormGroup } from '@angular/forms';
 })
 export class SignupComponent implements OnInit {
 
-  constructor() { }
+  constructor(private router : Router, private http: HttpClient) { }
 
   ngOnInit(): void {
   }
   signUpForm = new FormGroup({
-    firstname : new FormControl(""),
-    lastname : new FormControl(""),
-    email : new FormControl(""),
-    password : new FormControl(""),
-    rtpassword : new FormControl(""),
-    phonenumber : new FormControl(""),
+    firstname : new FormControl("", Validators.required),
+    lastname : new FormControl("", Validators.required),
+    email : new FormControl("", [Validators.required, Validators.pattern(/[a-z][0-9]/g)]),
+    password : new FormControl("", Validators.required),
+    rtpassword : new FormControl("", Validators.required),
+    phonenumber : new FormControl("", Validators.required),
 
   });
 
   registerSubmitted() {
-    alert('Sign up successful!')
+    if(this.signUpForm.valid){
+       this.http.post('http://localhost:3000/signUp', this.signUpForm.value).subscribe(res => {
+        console.log(res);
+        alert('Signup successful!');
+        this.router.navigateByUrl('/signin')
+       }, err => {
+        console.log(err)
+        alert('Something went wrong:(')
+       })
+    }else{
+      alert('Check you form for errors!');
+    }
 
   }
 
